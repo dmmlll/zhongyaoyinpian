@@ -109,7 +109,7 @@ if __name__ == '__main__':
                                   icons=['arrow-return-right'],
                                   menu_icon="cast", default_index=0, orientation="horizontal")
             if sourceA == '安息香':
-                image = Image.open('./web/安息香.JPG')
+                image = Image.open('./web/安息香.jpg')
                 st.image(image, caption='安息香')
                 st.write('中文名：安息香\n\n\n\n'
                         '拼音：an xi xiang\n\n\n\n'
@@ -126,7 +126,7 @@ if __name__ == '__main__':
                                          'arrows-angle-contract','arrows-angle-contract'],
                                   menu_icon="cast", default_index=0, orientation="horizontal")
             if sourceB == '白扁豆':
-                image = Image.open('./web/白扁豆.JPG')
+                image = Image.open('./web/白扁豆.jpg')
                 st.image(image, caption='白扁豆')
                 st.write('中文名：白扁豆\n\n\n\n'
                          '拼音：bai bian dou\n\n\n\n'
@@ -150,7 +150,7 @@ if __name__ == '__main__':
                            服用禁忌：阴虚胃弱，无湿热者忌服。
                            ''')
             elif sourceB == '白芥子':
-                image = Image.open('./web/白芥子.JPG')
+                image = Image.open('./web/白芥子.jpg')
                 st.image(image, caption='白芥子')
                 st.markdown('''
                            中文名：白芥子\n
@@ -198,7 +198,7 @@ if __name__ == '__main__':
                             服用禁忌：阴虚火旺、肺肾气虚咳嗽者慎服。
                             ''')
             elif sourceB == '白芍':
-                image = Image.open('./web/白芍.JPG')
+                image = Image.open('./web/白芍.jpg')
                 st.image(image, caption='白芍')
                 st.markdown('''
                             中文名：白芍\n
@@ -234,7 +234,7 @@ if __name__ == '__main__':
                             服用禁忌：便溏及痰多者忌服。
                             ''')
             elif sourceB == '板蓝根':
-                image = Image.open('./web/板蓝根.JPG')
+                image = Image.open('./web/板蓝根.jpg')
                 st.image(image, caption='板蓝根')
                 st.markdown('''
                             中文名：板蓝根\n
@@ -282,7 +282,7 @@ if __name__ == '__main__':
                             服用禁忌：阴虚血分有热，发热咳嗽禁用。
                             ''')
             elif sourceB == '薄荷':
-                image = Image.open('./web/薄荷.JPG')
+                image = Image.open('./web/薄荷.jpg')
                 st.image(image, caption='薄荷')
                 st.markdown('''
                             中文名：薄荷\n
@@ -334,7 +334,7 @@ if __name__ == '__main__':
                             服用禁忌：真阴亏损，肝阳上亢及肝风内动之证禁服。
                             ''')
             elif sourceC == '陈皮':
-                image = Image.open('./web/陈皮.JPG')
+                image = Image.open('./web/陈皮.jpg')
                 st.image(image, caption='陈皮')
                 st.markdown('''
                            中文名：陈皮\n
@@ -494,7 +494,7 @@ if __name__ == '__main__':
                             服用禁忌：尚不明确。
                             ''')
             elif sourceD == '大青叶':
-                image = Image.open('./web/大青叶.JPG')
+                image = Image.open('./web/大青叶.jpg')
                 st.image(image, caption='大青叶')
                 st.markdown('''
                             中文名：大青叶\n
@@ -578,7 +578,7 @@ if __name__ == '__main__':
                                   icons=['app','app','app','app','app','app','app'],
                                   menu_icon="cast", default_index=0, orientation="horizontal")
             if sourceG == '甘草':
-                image = Image.open('./web/甘草.JPG')
+                image = Image.open('./web/甘草.jpg')
                 st.image(image, caption='甘草')
                 st.markdown('''
                             中文名：甘草\n
@@ -592,7 +592,7 @@ if __name__ == '__main__':
                             服用禁忌：不宜与甘遂、大戟、芫花、海藻同用。
                             ''')
             elif sourceG == '干姜':
-                image = Image.open('./web/干姜.JPG')
+                image = Image.open('./web/干姜.jpg')
                 st.image(image, caption='干姜')
                 st.markdown('''
                             中文名：干姜\n
@@ -652,7 +652,7 @@ if __name__ == '__main__':
                             服用禁忌：《得配本草》：血虚病目者禁用。
                             ''')
             elif sourceG == '谷芽':
-                image = Image.open('./web/谷芽.JPG')
+                image = Image.open('./web/谷芽.jpg')
                 st.image(image, caption='谷芽')
                 st.markdown('''
                             中文名：谷芽\n
@@ -693,7 +693,7 @@ if __name__ == '__main__':
                             服用禁忌：对于阴血亏虚，肝阳上亢，以及火热内盛导致的头痛患者慎服
                             ''')
             elif sourceH == '合欢皮':
-                image = Image.open('./web/合欢皮.JPG')
+                image = Image.open('./web/合欢皮.jpg')
                 st.image(image, caption='合欢皮')
                 st.markdown('''
                             中文名：合欢皮\n
@@ -717,7 +717,7 @@ if __name__ == '__main__':
                             服用禁忌：脾虚泄泻，胃弱食少者忌服。
                             ''')
             elif sourceH == '黄芪':
-                image = Image.open('./web/黄芪.JPG')
+                image = Image.open('./web/黄芪.jpg')
                 st.image(image, caption='黄芪')
                 st.markdown('''
                             中文名：黄芪\n
@@ -729,7 +729,7 @@ if __name__ == '__main__':
                             服用禁忌：
                             ''')
             elif sourceH == '黄芩':
-                image = Image.open('./web/黄芩.JPG')
+                image = Image.open('./web/黄芩.jpg')
                 st.image(image, caption='黄芩')
                 st.markdown('''
                            中文名：黄芩\n
@@ -741,7 +741,7 @@ if __name__ == '__main__':
                            服用禁忌：凡中寒作泄，中寒腹痛，肝肾虚而少腹痛，血虚腹痛，脾虚泄泻，肾虚溏泻，脾虚水肿，血枯经闭，气虚小水不利，肺受寒邪喘咳，及血虚胎不安，阴虚淋露，法并禁用。
                            ''')
             elif sourceH == '藿香':
-                image = Image.open('./web/藿香.JPG')
+                image = Image.open('./web/藿香.jpg')
                 st.image(image, caption='藿香')
                 st.markdown('''
                             中文名：藿香\n
@@ -772,7 +772,7 @@ if __name__ == '__main__':
                            服用禁忌：①《药性论》：恶桑螵蛸、桔梗、茯苓、茯神、萆薢。②《本草经疏》：凡中风口噤，小儿惊痫夜啼，由于心虚神魂不宁，血虚经络劲急所致，而无外邪为病者忌之。女子崩中，产后余痛，非风寒客入者，亦不宜用。
                            ''')
             elif sourceJ == '鸡冠花':
-                image = Image.open('./web/鸡冠花.JPG')
+                image = Image.open('./web/鸡冠花.jpg')
                 st.image(image, caption='鸡冠花')
                 st.markdown('''
                             中文名：鸡冠花\n
@@ -784,7 +784,7 @@ if __name__ == '__main__':
                             服用禁忌：
                             ''')
             elif sourceJ == '锦灯笼':
-                image = Image.open('./web/锦灯笼.JPG')
+                image = Image.open('./web/锦灯笼.jpg')
                 st.image(image, caption='锦灯笼')
                 st.markdown('''
                            中文名：锦灯笼\n
@@ -808,7 +808,7 @@ if __name__ == '__main__':
                             服用禁忌：表虚自汗、阴虚头痛忌服。
                             ''')
             elif sourceJ == '金银花':
-                image = Image.open('./web/金银花.JPG')
+                image = Image.open('./web/金银花.jpg')
                 st.image(image, caption='金银花')
                 st.markdown('''
                             中文名：金银花\n
@@ -1244,7 +1244,7 @@ if __name__ == '__main__':
                             服用禁忌：无实火及脾虚便溏者不宜。孕妇忌服。
                             ''')
             elif sourceS == '石榴皮':
-                image = Image.open('./web/石榴皮.JPG')
+                image = Image.open('./web/石榴皮.jpg')
                 st.image(image, caption='石榴皮')
                 st.markdown('''
                             中文名：石榴皮\n
@@ -1280,7 +1280,7 @@ if __name__ == '__main__':
                             服用禁忌：凡有实邪郁火及患有滑泄症者慎服。
                             ''')
             elif sourceS == '苏木':
-                image = Image.open('./web/苏木.JPG')
+                image = Image.open('./web/苏木.jpg')
                 st.image(image, caption='苏木')
                 st.markdown('''
                             中文名：苏木\n
@@ -1426,7 +1426,7 @@ if __name__ == '__main__':
                             服用禁忌：外感风寒及血虚无热者忌服。
                             ''')
             elif sourceY == '薏仁':
-                image = Image.open('./web/薏仁.JPG')
+                image = Image.open('./web/薏仁.jpg')
                 st.image(image, caption='薏仁')
                 st.markdown('''
                             中文名：薏仁\n
