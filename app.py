@@ -162,7 +162,7 @@ if __name__ == '__main__':
                            服用禁忌：肺虚久咳及阴虚火旺者禁服。
                            ''')
             elif sourceB == '白蔹':
-                image = Image.open('./web/白蔹.jpg')
+                image = Image.open('./web/白蔹.JPG')
                 st.image(image, caption='白蔹')
                 st.markdown('''
                             中文名：白蔹\n
@@ -174,7 +174,7 @@ if __name__ == '__main__':
                             服用禁忌：脾胃虚寒及无实火者，痈疽已溃者均不宜服。阴疽色淡不起，胃气弱者，也不宜服用。
                             ''')
             elif sourceB == '白茅根':
-                image = Image.open('./web/白茅根.jpg')
+                image = Image.open('./web/白茅根.JPG')
                 st.image(image, caption='白茅根')
                 st.markdown('''
                             中文名：白茅根\n
@@ -186,7 +186,7 @@ if __name__ == '__main__':
                             服用禁忌：脾胃虚寒、溲多不渴者禁服。
                             ''')
             elif sourceB == '白前':
-                image = Image.open('./web/白前.jpg')
+                image = Image.open('./web/白前.JPG')
                 st.image(image, caption='白前')
                 st.markdown('''
                             中文名：白前\n
@@ -210,7 +210,7 @@ if __name__ == '__main__':
                             服用禁忌：虚寒腹痛泄泻者慎服。
                             ''')
             elif sourceB == '白术':
-                image = Image.open('./web/白术.jpg')
+                image = Image.open('./web/白术.JPG')
                 st.image(image, caption='白术')
                 st.markdown('''
                            中文名：白术\n
@@ -222,7 +222,7 @@ if __name__ == '__main__':
                            服用禁忌：阴虚内热、津液亏耗者慎服;内有实邪雍滞者禁服。
                            ''')
             elif sourceB == '柏子仁':
-                image = Image.open('./web/柏子仁.jpg')
+                image = Image.open('./web/柏子仁.JPG')
                 st.image(image, caption='柏子仁')
                 st.markdown('''
                             中文名：柏子仁\n
@@ -246,7 +246,7 @@ if __name__ == '__main__':
                             服用禁忌：体虚而无实火热毒者忌服，脾胃虚寒者慎用。
                             ''')
             elif sourceB == '北沙参':
-                image = Image.open('./web/北沙参.jpg')
+                image = Image.open('./web/北沙参.JPG')
                 st.image(image, caption='北沙参')
                 st.markdown('''
                             中文名：北沙参\n
@@ -258,7 +258,7 @@ if __name__ == '__main__':
                             服用禁忌：风寒作嗽及肺胃虚寒者忌服。
                             ''')
             elif sourceB == '荜拨':
-                image = Image.open('./web/荜拨.jpg')
+                image = Image.open('./web/荜拨.JPG')
                 st.image(image, caption='荜拨')
                 st.markdown('''
                             中文名：荜拨\n
@@ -270,7 +270,7 @@ if __name__ == '__main__':
                             服用禁忌：实热郁火、阴虚火旺者均忌服。
                             ''')
             elif sourceB == '荜澄茄':
-                image = Image.open('./web/荜澄茄.jpg')
+                image = Image.open('./web/荜澄茄.JPG')
                 st.image(image, caption='荜澄茄')
                 st.markdown('''
                             中文名：荜澄茄\n
