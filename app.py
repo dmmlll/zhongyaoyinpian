@@ -138,7 +138,7 @@ if __name__ == '__main__':
                          '服用禁忌：一般人群均可食用。适宜脾胃虚弱、食欲不振、大更溏泻、白带过多、暑湿吐泻、胸闷腹胀症状的患者食用。患寒热病者，患冷气人，患冷气人不可食。'
                         )
             elif sourceB == '白矾':
-                image = Image.open('./web/白矾.jpg')
+                image = Image.open('./web/白矾.JPG')
                 st.image(image, caption='白矾')
                 st.markdown('''
                            中文名：白矾\n
