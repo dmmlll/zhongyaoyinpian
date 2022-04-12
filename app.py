@@ -86,7 +86,7 @@ if __name__ == '__main__':
     if choose == "介绍":
         col1, col2 = st.columns(2)
         with col1:
-            st.image("./web/中药饮片.png")
+            st.image("./data/images/logo1.png")
         with col2:
             st.write('基于YOLOv5中药饮片的streamlit APP是本人的研究生作品，不涉及任何商用，特在此做出如下说明：\n\n'
                      '首先，python与streamlit结合用于中药饮片的案例，提高了大家对中药饮片的认知，更加的了解中药。（此代码已上传至本人的Github账号，该代码已开源，同时已经部署在streamlit cloud）\n\n'
@@ -138,7 +138,7 @@ if __name__ == '__main__':
                          '服用禁忌：一般人群均可食用。适宜脾胃虚弱、食欲不振、大更溏泻、白带过多、暑湿吐泻、胸闷腹胀症状的患者食用。患寒热病者，患冷气人，患冷气人不可食。'
                         )
             elif sourceB == '白矾':
-                image = Image.open('./web/白矾.jpg')
+                image = Image.open('./web/白矾.JPG')
                 st.image(image, caption='白矾')
                 st.markdown('''
                            中文名：白矾\n
@@ -1837,6 +1837,8 @@ if __name__ == '__main__':
         sourcePV = option_menu(None, ['图片检测','视频检测'],
                               icons=['card-image','webcam'],
                               menu_icon="cast", default_index=0, orientation="horizontal")
+
+
         if sourcePV == '图片检测':
             st.info("图片检测")
             # 选择文件
@@ -1867,7 +1869,9 @@ if __name__ == '__main__':
             print('valid')
             if st.button('开始检测'):
 
-                detect(opt)
+
+
+                print(detect(opt))
 
                 if sourcePV == '图片检测':
                     with st.spinner(text='Preparing Images'):
