@@ -1837,8 +1837,6 @@ if __name__ == '__main__':
         sourcePV = option_menu(None, ['图片检测','视频检测'],
                               icons=['card-image','webcam'],
                               menu_icon="cast", default_index=0, orientation="horizontal")
-
-
         if sourcePV == '图片检测':
             st.info("图片检测")
             # 选择文件
@@ -1869,9 +1867,7 @@ if __name__ == '__main__':
             print('valid')
             if st.button('开始检测'):
 
-
-
-                print(detect(opt))
+                detect(opt)
 
                 if sourcePV == '图片检测':
                     with st.spinner(text='Preparing Images'):
@@ -1885,4 +1881,3 @@ if __name__ == '__main__':
                             st.video(str(Path(f'{get_detection_folder()}') / vid))
 
                             st.balloons()
-
