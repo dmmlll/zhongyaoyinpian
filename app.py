@@ -43,7 +43,7 @@ with st.sidebar:
 
 if __name__ == '__main__':
 
-    st.title('*基于YOLOv5的中药饮片的Streamlit App*')
+    st.title(':four_leaf_clover:*中药饮片*:four_leaf_clover:*的Streamlit App*:pill:')
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str,
@@ -84,18 +84,19 @@ if __name__ == '__main__':
     print(opt)
 
     if choose == "介绍":
+        st.header(':wave:*Streamlit APP 介绍：*')
         col1, col2 = st.columns(2)
         with col1:
             st.image("./data/images/logo1.png")
         with col2:
-            st.write('基于YOLOv5中药饮片的streamlit APP是本人的研究生作品，不涉及任何商用，特在此做出如下说明：\n\n'
-                     '首先，python与streamlit结合用于中药饮片的案例，提高了大家对中药饮片的认知，更加的了解中药。（此代码已上传至本人的Github账号，该代码已开源，同时已经部署在streamlit cloud）\n\n'
-                     '其次，因本人并非中医学生，所以对于中药饮片认知以及中医方剂的用法用量等，此作品经过参考大量的资料，询问专业的人士后得出。\n\n'
-                     '再次，此作品用于中药饮片的图片识别效果较好，但数据库仅包含107种中药，此作品中包含的107种中药饮片都可以在此系统中查找到。\n\n'
-                     '最后，此作品中的药剂参考了一些比较权威的中医网站，但是仅限于参考，不能作为治病依据，具体症状还是要在专业的医师指导下应用。\n\n'
+            st.write(':exclamation:基于YOLOv5中药饮片的streamlit APP是本人的研究生作品，不涉及任何商用，特在此做出如下说明：\n\n'
+                     ':point_up:首先，python与streamlit结合用于中药饮片的案例，提高了大家对中药饮片的认知，更加的了解中药。（此代码已上传至本人的Github账号，该代码已开源，同时已经部署在streamlit cloud）\n\n'
+                     ':v:其次，因本人并非中医学生，所以对于中药饮片认知以及中医方剂的用法用量等，此作品经过参考大量的资料，询问专业的人士后得出。\n\n'
+                     ':ok_hand:再次，此作品用于中药饮片的图片识别效果较好，但数据库仅包含107种中药，此作品中包含的107种中药饮片都可以在此系统中查找到。\n\n'
+                     ':clap:最后，此作品中的药剂参考了一些比较权威的中医网站，但是仅限于参考，不能作为治病依据，具体症状还是要在专业的医师指导下应用。\n\n'
                      )
     elif choose == '中药饮片':
-        st.write('按字母顺序查找：')
+        st.header(':point_right: *按字母顺序查找：*')
         select3 = option_menu(None,
                               ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
                                'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'],
@@ -1506,6 +1507,7 @@ if __name__ == '__main__':
                             服用禁忌：体弱者及孕妇忌服。
                             ''')
     elif choose == '中医方剂':
+        st.header(':point_right: *请按属性查找：*')
         select4 = option_menu(None, ['解表剂', '泻下剂', '和解剂', '清热剂', '祛暑剂', '温里剂', '安神剂', '预防新冠'],
                               icons=['bag-plus', 'bag-plus', 'bag-plus', 'bag-plus', 'bag-plus', 'bag-plus', 'bag-plus', 'bag-plus'],
                               menu_icon="cast", default_index=0, orientation="horizontal")
@@ -1834,11 +1836,12 @@ if __name__ == '__main__':
             st.write("普通人群预防：可选用黄芪12g、炒白术9g、防风6g、金银花9g、连翘9g、桑叶6g、炒牛蒡子6g、芦根9g、炙甘草3g以益气固表，清热解毒。\n\n\n\n"
                      ":exclamation: 市民可在医师指导下应用！:exclamation:")
     elif choose=='图片/视频检测':
+        st.header(':open_hands: *请选择：* :camera: *图片检测 或* :video_camera: *视频检测*')
         sourcePV = option_menu(None, ['图片检测','视频检测'],
                               icons=['card-image','webcam'],
                               menu_icon="cast", default_index=0, orientation="horizontal")
         if sourcePV == '图片检测':
-            st.info("图片检测")
+            st.info(":camera:图片检测")
             # 选择文件
             uploaded_file = st.sidebar.file_uploader("上传图片", type=['png', 'jpeg', 'jpg'])
             if uploaded_file is not None:
@@ -1851,7 +1854,7 @@ if __name__ == '__main__':
             else:
                 is_valid = False
         else:
-            st.info("视频检测")
+            st.info(":video_camera:视频检测")
             uploaded_file = st.sidebar.file_uploader("上传视频", type=['mp4'])
             if uploaded_file is not None:
                 is_valid = True
